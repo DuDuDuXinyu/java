@@ -1,9 +1,19 @@
 public class ReverseStr
 {
 	public static void main(String []args){
+
+		//先把字符串存入String的类型变量中
+
 		String str="i am a student";
+		System.out.println(str);
+
+		//使用函数toCharArray()将字符串存入数组
+
 		char []arr=str.toCharArray();
 		fun(arr);
+
+		//将字符数组转换为字符串类型
+
 		String str1 = new String(arr);
 		System.out.println(str1);
 	}
