@@ -6,9 +6,12 @@ public class TimeDown
 		int num=s.nextInt();
 		int a=num;
 		while(num!=0){
+			//方法一：
+			//System.out.print(num+"\r");
+			//方法二：
 			System.out.print(num);
-			num--;
 			System.out.print("\r");
+			num--;
 
 			//线程终端也就是睡眠
 			//固定格式
